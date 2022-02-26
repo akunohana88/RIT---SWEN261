@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.webcheckers.model.BoardTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.webcheckers.model.BoardTest
+makeMoveForRedTest  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.webcheckers.model.Piece.getColor()" because the return value of "com.webcheckers.model.Row.getPieceAtIndex(int)" is null
+	at com.webcheckers.model.BoardTest.makeMoveForRedTest(BoardTest.java:149)
+
+makeMoveForWhiteTest  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.webcheckers.model.Piece.getColor()" because the return value of "com.webcheckers.model.Row.getPieceAtIndex(int)" is null
+	at com.webcheckers.model.BoardTest.makeMoveForWhiteTest(BoardTest.java:133)
+
