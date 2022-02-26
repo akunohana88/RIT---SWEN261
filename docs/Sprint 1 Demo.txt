@@ -1,0 +1,33 @@
+Sprint demo for tomorrow:
+Person sharing screen: Nick(have trello board, three tabs[one to demo sign in, two players{one will try to join game already being played}])
+
+Jack: review the done stories - the trello board
+      Brief discussion of the acceptance
+      what we struggled with(refreshing page)
+
+Matt: home page has a place for signing in
+    join with valid name(only letters) and sign out,
+    sign in with invalid name(question mark),
+    sign back in with valid name using number
+
+Hana: show that online player number has changed but not player names,
+      tries to sign in with same name,
+      join with name using a space,
+      after joining in can see other players
+      join game with matt,
+      page refreshes for the second player
+      player that invites the other player will be red
+
+Nick: sign in and try to join a game with either Hana or Matt
+    After I sign in, I can see that there are two players online, but since they are both in a game, when I attempt to
+    start a game with them, I get an error message informing me that I cannot start a game with them.
+
+Matt: show valid and invalid(move onto white space and occupied place) moves, sign out
+
+    Now that the game has started with both players in, we can see what moves are available to player one which has
+    join the game as the red team as they started the match
+
+    The player's only move-able options which are displayed in shaded red are the two diagonally in front of it
+
+
+
